@@ -1,0 +1,294 @@
+:root {
+  --primary-logo-color-light: #80ecf1;
+  --primary-logo-color-dark: #46afc5;
+  --secondary-logo-color-light: #4ef749;
+  --secondary-logo-color-dark: #86c972;
+  --black-bg: #353535;
+}
+
+.darkBlueText {
+  color: var(--primary-logo-color-dark);
+}
+.darkGreenText {
+  color: var(--secondary-logo-color-dark);
+}
+
+.blackText {
+  color: black;
+}
+.darkBlueBg {
+  color: white;
+  background-color: var(--primary-logo-color-dark);
+}
+.darkGreenBg {
+  color: white;
+  background-color: var(--secondary-logo-color-dark);
+}
+
+section {
+  width: 100%;
+}
+
+/* Nav */
+.nav-img {
+  width: 6rem;
+}
+
+/* Home Page */
+
+.homeDiv .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.homeDiv h2 {
+  font-weight: 400;
+}
+.homeDiv .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+.iconClass {
+  font-size: 140px;
+  width: 140px;
+  height: 140px;
+}
+
+.bannerBg {
+  background-color: var(--black-bg);
+}
+
+.iconBlue:hover {
+  border-width: 0.25rem;
+  border-color: var(--primary-logo-color-dark);
+  background-color: white;
+  color: var(--primary-logo-color-dark);
+}
+
+.iconGreen:hover {
+  border-width: 0.25rem;
+  border-color: var(--secondary-logo-color-dark);
+  background-color: white;
+  color: var(--secondary-logo-color-dark);
+}
+
+/* Other Pages */
+header {
+  padding-top: 8vh;
+  padding-bottom: 5vh;
+}
+
+body {
+  padding-top: 10vh;
+}
+
+/* Websites */
+.website-icon {
+  font-size: 4rem;
+  color: #495057;
+  width: 100px;
+  height: 100px;
+}
+
+.website-icon:hover {
+  color: var(--secondary-logo-color);
+}
+
+.btn-website {
+  background-color: var(--primary-logo-color-dark);
+  border-color: var(--secondary-logo-color-dark);
+  border-width: 0.25rem;
+  color: white;
+  transition: background-color 0.2s, border-color 0.2s;
+}
+
+.btn-website:hover {
+  background-color: var(--secondary-logo-color-dark);
+  border-color: var(--primary-logo-color-dark);
+  color: white;
+}
+
+/* Links & Websites */
+.custom-card {
+  transition: transform 0.2s;
+}
+
+.custom-card:hover {
+  transform: scale(1.05);
+}
+
+/* Links */
+.social-icon {
+  font-size: 4rem;
+  color: var(--primary-logo-color-dark);
+}
+.social-icon:hover {
+  color: var(--secondary-logo-color-dark);
+}
+
+/* About */
+.clubList {
+  list-style: none;
+  padding-left: 0;
+}
+
+#profilePic {
+  border: 15px solid var(--primary-logo-color-dark);
+  border-radius: 50%;
+  width: 75%;
+  height: 75%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+#side-by-side-sections {
+  display: flex;
+  flex-wrap: wrap; /* Ensures proper layout on smaller screens */
+  gap: 2rem; /* Adds space between the sections */
+  justify-content: center; /* Centers the content horizontally */
+}
+
+#side-by-side-sections > section {
+  flex: 1; /* Ensures both sections take up equal space */
+  max-width: 48%; /* Sets a maximum width to prevent sections from becoming too wide */
+  min-width: 300px; /* Ensures the sections don't shrink below a readable size */
+}
+
+#side-by-side-sections #accomplishments {
+  background-color: var(--primary-logo-color);
+  color: black;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+#side-by-side-sections #hobbies {
+  background-color: white;
+  color: black;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.certSection {
+  justify-content: center;
+}
+
+
+.custom-card div[data-iframe-width] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;  /* Ensures it's centered */
+  width: fit-content;
+}
+
+.iframe-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/* PDF VIEWER */
+.pdf-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  background-color: #f8f9fa;
+}
+
+.pdf-viewer-wrapper {
+  width: 80%;
+  max-width: 800px;
+  height: 90vh;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background: white;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+
+
+
+
+
+.btn-invs {
+  background-color: #ffffff00;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+
+.form-signin input[type="text"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.badge-container {
+  position: relative;
+  display: inline-block;
+  font-size: 1rem; /* Adjust the font size as needed */
+}
+.badge-custom {
+  position: absolute;
+  top: -10px;
+  right: -15px;
+  font-size: 0.75rem; /* Adjust the font size as needed */
+}
+.bi-chat-left-fill {
+  font-size: 1.5rem; /* Adjust the font size as needed */
+}
+
+
+@media (max-width: 768px) {
+  #side-by-side-sections {
+    padding: 0;
+    margin: 0;
+  }
+
+  #side-by-side-sections > section {
+    padding: 0 !important;
+    margin: 0;
+  }
+
+  #skills {
+    text-align: center;
+    padding-bottom: 10px !important;
+  }
+
+  .imageDD {
+    position: fixed;
+    top: 10px; /* Distance from the top of the screen */
+    right: 0; /* Aligns the dropdown to the right side */
+    padding-right: 10px;
+  }
+
+}
