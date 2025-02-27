@@ -34,4 +34,4 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages # Target branch for GitHub Pages
-          folder: build # The output folder from your build process
+          folder: dist # The output folder from your build process
