@@ -20,7 +20,7 @@ const Home = () => {
                         <i className="bi bi-laptop iconClass darkGreenText"></i>
                         <h2><b>Projects</b></h2>
                         <p>Projects That I Have Created <br /> That Are Open to View</p>
-                        <p><a className="btn darkGreenBg iconGreen" href="/websites" role="button">View details &raquo;</a></p>
+                        <p><a className="btn darkGreenBg iconGreen" href="/projects" role="button">View details &raquo;</a></p>
                     </div>
                     <div className="col-lg-4">
                         <i className="bi bi-envelope iconClass darkBlueText"></i>

@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import NavbarHeader from './components/NavbarHeader.jsx'
 import ContactFooter from './components/ContactFooter.jsx'
 import Home from './pages/home.jsx'
-import Websites from './pages/websites.jsx'
+import Projects from './pages/projects.jsx'
 import Links from './pages/links.jsx'
 import Contact from './pages/contact.jsx'
 import About from './pages/about.jsx'
@@ -18,7 +18,7 @@ function App() {
       <NavbarHeader />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/websites" element={<Websites />} />
+        <Route path="/projects" element={<Projects />} />
         <Route path="/links" element={<Links />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
