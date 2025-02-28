@@ -10,7 +10,7 @@ import CardSection from '../components/CardSection'
 const websites = () => {
   return (
     <>
-        <PageHeader title="My Websites" subTitle={"Explore my projects and creations"}/>
+        <PageHeader title="My Projects" subTitle={"Explore my projects and creations"}/>
         
         {/* Websites Section */}
         <section className="py-5  mx-auto">

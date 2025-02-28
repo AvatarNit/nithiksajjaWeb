@@ -18,8 +18,8 @@ const Home = () => {
                     </div>
                     <div className="col-lg-4">
                         <i className="bi bi-laptop iconClass darkGreenText"></i>
-                        <h2><b>Websites</b></h2>
-                        <p>Websites That I Have Created <br /> That Are Open to View</p>
+                        <h2><b>Projects</b></h2>
+                        <p>Projects That I Have Created <br /> That Are Open to View</p>
                         <p><a className="btn darkGreenBg iconGreen" href="/websites" role="button">View details &raquo;</a></p>
                     </div>
                     <div className="col-lg-4">
