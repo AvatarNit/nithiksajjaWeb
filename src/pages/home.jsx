@@ -1,5 +1,6 @@
 import React from 'react'
 import webBanner from "../assets/websiteBanner.png"
+import { Link } from 'react-router-dom'
 
 const Home = () => {
   return (
@@ -14,19 +15,19 @@ const Home = () => {
                         <i className="bi bi-link-45deg iconClass darkBlueText"></i>
                         <h2><b>Links</b></h2>
                         <p>Social platforms <br /> YouTube, GitHub, and More</p>
-                        <p><a className="btn darkBlueBg iconBlue" href="/links" role="button">View details &raquo;</a></p>
+                        <p><Link className="btn darkBlueBg iconBlue" to="/links" role="button">View details &raquo;</Link></p>
                     </div>
                     <div className="col-lg-4">
                         <i className="bi bi-laptop iconClass darkGreenText"></i>
                         <h2><b>Projects</b></h2>
                         <p>Projects That I Have Created <br /> That Are Open to View</p>
-                        <p><a className="btn darkGreenBg iconGreen" href="/projects" role="button">View details &raquo;</a></p>
+                        <p><Link className="btn darkGreenBg iconGreen" to="/projects" role="button">View details &raquo;</Link></p>
                     </div>
                     <div className="col-lg-4">
                         <i className="bi bi-envelope iconClass darkBlueText"></i>
                         <h2><b>Contact Me</b></h2>
                         <p>Contact Me With <br />Questions, Inqueries, or Feedback</p>
-                        <p><a className="btn darkBlueBg iconBlue" href="/contact" role="button">View details &raquo;</a></p>
+                        <p><Link className="btn darkBlueBg iconBlue" to="/contact" role="button">View details &raquo;</Link></p>
                     </div>
                 </div>
             </div>
