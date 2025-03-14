@@ -31,7 +31,6 @@ const ContactFooter = () => {
     <footer className="bg-body-tertiary pt-5 pb-5">
         <div className="container">
             <div className="row justify-content-center">
-                <div id="google_translate_element"></div>
                 <div className="col-lg-6">
                     <form onSubmit={onSubmit}>
                         <h3 className="text-center darkGreenText"><b>Contact Me</b></h3>
@@ -58,6 +57,9 @@ const ContactFooter = () => {
                         </div>
                     </form>
                 </div>
+            </div>
+            <div className="row justify-content-right">
+                <div id="google_translate_element"></div>
             </div>
         </div>
     </footer>
