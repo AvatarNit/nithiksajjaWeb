@@ -36,6 +36,20 @@ section {
 
 /* Home Page */
 
+#google_translate_element {
+  position: fixed;
+  bottom: 20px;   /* Distance from the bottom */
+  right: 20px;    /* Distance from the right */
+  z-index: 9999;  /* Ensure it stays on top of other content */
+}
+
+.goog-te-combo {
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+}
+
 .homeDiv .col-lg-4 {
   margin-bottom: 1.5rem;
   text-align: center;

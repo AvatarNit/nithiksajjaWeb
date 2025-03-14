@@ -58,9 +58,7 @@ const ContactFooter = () => {
                     </form>
                 </div>
             </div>
-            <div className="row justify-content-end">
-                <div id="google_translate_element"></div>
-            </div>
+            <div id="google_translate_element"></div>
         </div>
     </footer>
   )
