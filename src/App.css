@@ -46,8 +46,9 @@ section {
 .goog-te-combo {
   padding: 5px;
   border-radius: 5px;
-  background-color: #f8f9fa;
-  border: 1px solid #ddd;
+  color: var(--secondary-logo-color-dark);
+  background-color: #ffffff;
+  border: 1px solid var(--primary-logo-color-dark);
 }
 
 .homeDiv .col-lg-4 {
