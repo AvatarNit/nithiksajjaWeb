@@ -72,6 +72,7 @@ const about = () => {
                             disc={"Certified Entry-Level Python Programmer\nIssued by Python Institute"}
                             link={"/PCEP"}
                             btnText={"View Certificate"}
+                            target_=''
                             />
                     </>
                 }/>

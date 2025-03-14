@@ -12,6 +12,6 @@ const PdfViewer = ({pdfUrl}) => {
             ></iframe>
         </div>
     );
-};
+}; 
 
 export default PdfViewer;
