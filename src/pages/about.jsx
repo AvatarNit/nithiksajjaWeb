@@ -82,16 +82,16 @@ const about = () => {
                 <div className="container text-center">
                     <h2 className="section-title darkBlueText">Accomplishments</h2>
                     <ul className="list-unstyled mt-4">
-                        <li><i className="bi bi-award-fill me-2 darkGreenText"></i>Recipient of the Presidential Volunteer Service Award (twice)</li>
+                        <li><i className="bi bi-star-fill me-2 darkGreenText"></i>Recipient of the Presidential Volunteer Service Award (twice)</li>
                         <li><i className="bi bi-laptop-fill me-2 darkGreenText"></i>Proficient in web development languages: HTML, CSS, JavaScript, and Python</li>
                         <li><i className="bi bi-window me-2 darkGreenText"></i>Currently designing and managing five websites</li>
                         <li>
                             <i className="bi bi-diagram-3-fill me-2 darkGreenText"></i>
                             <span className="darkGreenText"><b>School Involvement:</b></span>
                             <ul className="mt-2 clubList">
-                                <li><i className="bi bi-chevron-right me-2 darkGreenText"></i>Member of the Student Council Executive Team</li>
-                                <li><i className="bi bi-chevron-right me-2 darkGreenText"></i>Member of the Principal's Advisory Council</li>
-                                <li><i className="bi bi-chevron-right me-2 darkGreenText"></i>Member of the Computer Science Honor Society</li>
+                                <li><i className="bi bi-diamond me-2 darkGreenText"></i>Member of the Student Council Executive Team</li>
+                                <li><i className="bi bi-diamond me-2 darkGreenText"></i>Member of the Computer Science Honor Society Executive Team</li>
+                                <li><i className="bi bi-diamond me-2 darkGreenText"></i>Member of the Principal's Advisory Council</li>
                             </ul>
                         </li>
                     </ul>

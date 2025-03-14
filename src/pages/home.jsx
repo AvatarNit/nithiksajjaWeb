@@ -1,12 +1,15 @@
 import React from 'react'
-import webBanner from "../assets/websiteBanner.png"
+import webBannerD from "../assets/websiteBannerD.png"
+import webBannerM from "../assets/websiteBannerM.png"
 import { Link } from 'react-router-dom'
 
 const Home = () => {
   return (
     <>
         <section className="pt-3 bannerBg">
-            <img src={webBanner} className="img-fluid d-block mx-auto" height="50%" width="50%"></img>
+            <img src={webBannerD} className="d-none d-md-block" alt="Nithik Sajja Banner" height="50%" width="100%"></img>
+            <img src={webBannerM} className="d-block d-md-none" alt="Nithik Sajja Banner" height="50%" width="100%"></img>
+
         </section>
         <section className="pt-5">
             <div className="container homeDiv">
