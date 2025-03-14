@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Card = ({iconHTML,title="",disc="",link,btnText, target_="_blank"}) => {
   return (
@@ -7,7 +8,7 @@ const Card = ({iconHTML,title="",disc="",link,btnText, target_="_blank"}) => {
             {iconHTML}
             <h3 className="mt-3">{title}</h3>
             <p>{disc}</p>
-            <a href={link} target={target_} className="btn btn-website">{btnText}</a>
+            <Link href={link} target={target_} className="btn btn-website">{btnText}</Link>
         </div>
     </div>
   )
